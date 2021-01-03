@@ -117,10 +117,10 @@ async function starts() {
 
 			mess = {
 				wait: '⌛ Actualmente en proceso ⌛',
-				success: '✔️ Berhasil ✔️',
+				success: '✔️ Funciona ✔️',
 				error: {
-					stick: '❌ Gagal, terjadi kesalahan saat mengkonversi gambar ke sticker ❌',
-					Iv: '❌ Link tidak valid ❌'
+					stick: '❌ Falló, se produjo un error al convertir la imagen en una pegatina ❌',
+					Iv: '❌ Enlace inválido ❌'
 				},
 				only: {
 					group: '❌ ¡Este comando solo se puede usar en grupos! ❌',
